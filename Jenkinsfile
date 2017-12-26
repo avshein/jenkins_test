@@ -13,7 +13,7 @@ node {
       echo test
     }
     stage('package') {
-      echo package
+      echo "package"
     }
     stage('publish') {
       echo "uploading package..."
