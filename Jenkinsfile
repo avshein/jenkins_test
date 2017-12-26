@@ -1,16 +1,16 @@
 node {
   try {
     stage('checkout') {
-      echo checkout
+      echo "checkout"
     }
     stage('prepare') {
-      echo prepare
+      echo "prepare"
     }
     stage('compile') {
       echo "nothing to compile for hello.sh..."
     }
     stage('test') {
-      echo test
+      echo "test"
     }
     stage('package') {
       echo "package"
