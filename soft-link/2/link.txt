@@ -1,1 +1,1 @@
-/Users/shein/accera/bhp/1/jenkins_test/soft-link/1/target.txt
+../1/link.txt
