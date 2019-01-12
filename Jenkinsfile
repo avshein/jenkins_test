@@ -1,26 +1,26 @@
 node {
   try {
     stage('checkout') {
-      echo "checkout"
+      echo 'checkout'
     }
     stage('prepare') {
-      echo "prepare"
+      echo 'prepare'
     }
     stage('compile') {
-      echo "nothing to compile for hello.sh..."
+      echo 'nothing to compile for hello.sh...'
     }
     stage('test') {
-      echo "test"
+      echo 'test'
     }
     stage('package') {
-      echo "package"
+      echo 'package'
     }
     stage('publish') {
-      echo "uploading package..."
+      echo 'uploading package...'
     }
   } finally {
     stage('cleanup') {
-      echo "doing some cleanup..."
+      echo 'doing some cleanup...'
     }
   }
 }
